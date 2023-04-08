@@ -1,0 +1,11 @@
+-- Role: administrator
+-- DROP ROLE IF EXISTS administrator;
+
+CREATE ROLE administrator WITH
+  LOGIN
+  SUPERUSER
+  INHERIT
+  CREATEDB
+  CREATEROLE
+  REPLICATION
+  ENCRYPTED PASSWORD 'password';

@@ -1,0 +1,1 @@
+Call klient_delete(12)
